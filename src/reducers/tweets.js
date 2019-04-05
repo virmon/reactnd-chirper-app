@@ -37,7 +37,6 @@ export default function tweets (state = {}, action) {
              *  - Would the state change in the same way? Why or why not?
              *  - Would the new tweet appear on the page? Why or why not?
              */
-            // let replyingTo = {}
             // if (tweet.replyingTo !== null) {
             //    const allReplies = state[tweet.replyingTo].replies.concat([tweet.id]);
          
