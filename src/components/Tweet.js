@@ -32,13 +32,11 @@ class Tweet extends Component {
                     <div>
                         <span>{name}</span>
                         <div>{formatDate(timestamp)}</div>
-                        {
-                            parent && (
+                            {parent && (
                                 <button className='replying-to' onClick={(e) => this.toParent(e, parent.id)}>
                                     Replying to @{parent.author}
                                 </button>
-                            )
-                        }
+                            )}
                         <p>{text}</p>
                         <div className='tweet-icons'>
                             <TiArrowBackOutline className='tweet-icon' />
